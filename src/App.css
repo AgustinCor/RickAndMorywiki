@@ -1,0 +1,147 @@
+
+
+.App{
+ display: flex;
+ width: 100vw;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px #000;
+  overflow: hidden;
+  background-color: #222;
+  color: #fff;
+}
+
+h2 b{
+  color: #f50;
+}
+
+.cards img{
+  height: 100%;
+
+}
+
+.card-text{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ margin: 30px;
+} 
+
+.card-text li{
+  text-align: start;
+}
+b{
+  color: #ff0;
+}
+
+.card-text li{ 
+   
+  list-style: none;
+}
+
+.App button{
+  width: 200px;
+  margin: 20px 0;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #4ff;
+}
+
+
+.header{
+  background-image: url("assets/background1.png");
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  width: 100vw;
+  height: 700px;
+}
+
+.header h1{
+  font-size: 80px;
+  color: #fff;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100vw;
+  background-image: url("assets/background3.jpg");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title > div{
+  display: flex;
+  margin: 50px 0;
+  justify-content: center;
+}
+
+.title .dimension-title-1{
+  margin: 20px 0;
+  color: #ff0;
+}
+
+.title h2{
+  font-size: 40px;
+  color: #0f5;
+  padding: 20px;
+  background-color:#666;
+  border-radius: 25px;
+  margin: 10px 20px;
+}
+
+.title h2 b{
+  font-size: 40px;
+}
+
+input {
+  background-color: #fff;
+  width: 600px;
+  height: 60px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+
+.grid-box{
+  margin: -50px;
+  display: grid;
+  width: 100vw;
+  gap: 20px;
+  background-image: url("assets/background2.webp");
+  background-size: cover;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.burble{
+  background-color: #f00;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.card-text div .li-1{
+  display: flex;
+  align-items: center; 
+  flex-direction: row;
+}
+
+.li-1 h3{
+  margin-left:10px ;
+}
